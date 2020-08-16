@@ -1,0 +1,48 @@
+.login {
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.login__topPart {
+  text-align: center;
+}
+.login__logo {
+  height: 40px;
+  width: 50px;
+  margin-bottom: 20px !important;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+}
+.login__container > input {
+  border: none;
+}
+.login__signInButton {
+  background-color: var(--twitter-color) !important;
+  margin-top: 25px !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+}
+.login__form {
+  background-color: #f5f8fa !important;
+  margin-top: 10px !important;
+}
+.login__form:focus {
+  border-bottom: 1px solid #1da1f2 !important;
+}
+.login__bottomPart {
+  margin-top: 20px;
+  margin-left: 15%;
+  display: flex;
+}
+
+.login__bottomPart > .link {
+  text-decoration: none;
+  margin: 10px 25px;
+  color: var(--twitter-color);
+}
+.login__bottomPart > p {
+  font-weight: 800;
+}

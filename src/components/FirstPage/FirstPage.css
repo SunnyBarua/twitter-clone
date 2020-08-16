@@ -1,0 +1,61 @@
+.first__page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: -35px !important;
+  height: 100vh;
+}
+
+.left__portion {
+  flex-grow: 0.5;
+  width: 50%;
+}
+.right__portion {
+  flex-grow: 0.5;
+  width: 50%;
+}
+
+.first__page > .right__portion > .right__side {
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.firstPage__header {
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+Button.signUp__Button {
+  height: 45px !important;
+  width: 400px !important;
+  border-radius: 30px;
+  color: white;
+  background-color: #1da1f2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+Button.signUp__Button:hover {
+  background-color: #1da1f2;
+}
+Button.login__Button {
+  height: 45px !important;
+  width: 400px !important;
+  border-radius: 30px;
+  color: white;
+  background-color: white;
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+}
+Button.login__Button:hover {
+  background-color: white;
+}
+.fontSize__logo {
+  color: #1da1f2;
+}
+.bcg {
+  height: 100vh;
+}
